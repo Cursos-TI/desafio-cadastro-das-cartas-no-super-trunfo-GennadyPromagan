@@ -13,7 +13,7 @@ int main() {
     printf("\n*** Carta 1 ***\n");
 
     printf("Digite o estado [UF]\n");
-    scanf("%2s", &estado1);
+    scanf("%c", &estado1);
 
     printf("Digite o codigo da carta:\n");
     scanf("%3s", &codigo1);
@@ -38,7 +38,7 @@ int main() {
     printf("=== Dados da Carta 1 ===\n");
     
 
-    printf("Estado: %2s\n", estado1);
+    printf("Estado: %c\n", estado1);
     printf("Codigo: %3s\n", codigo1);
     printf("Nome da cidade: %49s\n", nomeCidade1);
     printf("Populacao: %d\n", populacao1);
@@ -59,7 +59,7 @@ int main() {
     printf("\n*** Carta 2 ***\n");
 
     printf("Digite o estado [UF]\n");
-    scanf("%2s", &estado2);
+    scanf("%c", &estado2);
 
     printf("Digite o codigo da carta:\n");
     scanf("%3s", &codigo2);
@@ -84,7 +84,7 @@ int main() {
     printf("=== Dados da Carta 2 ===\n");
     
 
-    printf("Estado: %2s\n", estado2);
+    printf("Estado: %c\n", estado2);
     printf("Codigo: %3s\n", codigo2);
     printf("Nome da cidade: %49s\n", nomeCidade2);
     printf("Populacao: %d\n", populacao2);
